@@ -1,0 +1,49 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #e0e0e0;
+  width: 200px;
+  box-shadow: 10px 10px 40px #c4c4c4;
+  margin: 30px;
+}
+
+.card-img {
+  width: 130px;
+  height: 130px;
+  padding: 0px 35px;
+}
+
+.crd-tittle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.crd-sub {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card-sub-tittle {
+  font-weight: bold;
+}
